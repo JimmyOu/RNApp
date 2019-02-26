@@ -6,6 +6,7 @@
 import {AppRegistry} from 'react-native';
 import App from './App';
 import App2 from './App2';
-// import {name as appName} from './app.json';
+import CodePushManager from './page/CodePushManager';
 AppRegistry.registerComponent('App', () => App);
 AppRegistry.registerComponent('App2', () => App2);
+AppRegistry.registerComponent('App3', ()=> CodePushManager);

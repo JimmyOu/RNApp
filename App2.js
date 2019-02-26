@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import codePush from 'react-native-code-push';
 import {
     AppRegistry,
     Platform,
@@ -68,10 +69,10 @@ export default class App2 extends Component {
         return (
             <View style={styles.container}>
                 <Text style={styles.welcome}>
-                    我的名字是 is:{this.props.name}
+                    My name is:{this.props.name}
                 </Text>
                 <Text style={styles.welcome}>
-                    我的年纪 is{this.props.age}岁
+                    My age is{this.props.age}岁
                 </Text>
                 <Text style={styles.instructions}>
                     {instructions}

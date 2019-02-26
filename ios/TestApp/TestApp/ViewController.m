@@ -28,6 +28,11 @@
 - (IBAction)invalid:(id)sender {
     [[BridgeAPI sharedInstance] invalid];
 }
+- (IBAction)hotLoad:(id)sender {
+    RNViewController *vc = [[RNViewController alloc] init];
+    vc.moduleName = @"App3";
+    [self.navigationController pushViewController:vc animated:YES];
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
