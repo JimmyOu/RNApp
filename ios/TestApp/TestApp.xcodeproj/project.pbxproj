@@ -17,6 +17,9 @@
 		A60537F12223898500B1310D /* NativeCallJS.m in Sources */ = {isa = PBXBuildFile; fileRef = A60537EE2223898500B1310D /* NativeCallJS.m */; };
 		A60537F22223898500B1310D /* CalendarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A60537EF2223898500B1310D /* CalendarManager.m */; };
 		A60537F622238CB000B1310D /* BridgeHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = A60537F522238CB000B1310D /* BridgeHandle.m */; };
+		A6225FCE2237566D00C546D5 /* PieChartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6225FCC2237566C00C546D5 /* PieChartManager.swift */; };
+		A6225FCF2237566D00C546D5 /* PieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = A6225FCD2237566D00C546D5 /* PieChart.m */; };
+		A6225FD12237567E00C546D5 /* PieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6225FD02237567E00C546D5 /* PieChartView.swift */; };
 		A6B10D73222439AF0046FBC9 /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = A6B10D71222439AF0046FBC9 /* index.js */; };
 		A6B10D74222439AF0046FBC9 /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = A6B10D72222439AF0046FBC9 /* main.jsbundle */; };
 		A6F5019122325DE400EDE62E /* EnumConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F5019022325DE400EDE62E /* EnumConstants.m */; };
@@ -43,6 +46,10 @@
 		A60537F02223898500B1310D /* NativeCallJS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeCallJS.h; sourceTree = "<group>"; };
 		A60537F422238CB000B1310D /* BridgeHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgeHandle.h; sourceTree = "<group>"; };
 		A60537F522238CB000B1310D /* BridgeHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BridgeHandle.m; sourceTree = "<group>"; };
+		A6225FCB2237566C00C546D5 /* TestApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		A6225FCC2237566C00C546D5 /* PieChartManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieChartManager.swift; sourceTree = "<group>"; };
+		A6225FCD2237566D00C546D5 /* PieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieChart.m; sourceTree = "<group>"; };
+		A6225FD02237567E00C546D5 /* PieChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieChartView.swift; sourceTree = "<group>"; };
 		A6B10D71222439AF0046FBC9 /* index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = index.js; path = ../../../bundles/index.js; sourceTree = "<group>"; };
 		A6B10D72222439AF0046FBC9 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = main.jsbundle; path = ../../../bundles/main.jsbundle; sourceTree = "<group>"; };
 		A6F5018F22325DE400EDE62E /* EnumConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EnumConstants.h; sourceTree = "<group>"; };
@@ -101,6 +108,7 @@
 		A60537D22223799D00B1310D /* TestApp */ = {
 			isa = PBXGroup;
 			children = (
+				A6225FB7223755FD00C546D5 /* Swift */,
 				A6B10D71222439AF0046FBC9 /* index.js */,
 				A6B10D72222439AF0046FBC9 /* main.jsbundle */,
 				A60537F322238CA400B1310D /* Bridge */,
@@ -142,6 +150,17 @@
 			path = Bridge;
 			sourceTree = "<group>";
 		};
+		A6225FB7223755FD00C546D5 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				A6225FCD2237566D00C546D5 /* PieChart.m */,
+				A6225FD02237567E00C546D5 /* PieChartView.swift */,
+				A6225FCC2237566C00C546D5 /* PieChartManager.swift */,
+				A6225FCB2237566C00C546D5 /* TestApp-Bridging-Header.h */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -174,6 +193,7 @@
 				TargetAttributes = {
 					A60537CF2223799D00B1310D = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
 					};
 				};
 			};
@@ -243,8 +263,11 @@
 				A60537EB22237DEA00B1310D /* RNViewController.m in Sources */,
 				A60537D82223799D00B1310D /* ViewController.m in Sources */,
 				A60537E32223799E00B1310D /* main.m in Sources */,
+				A6225FCF2237566D00C546D5 /* PieChart.m in Sources */,
+				A6225FD12237567E00C546D5 /* PieChartView.swift in Sources */,
 				A60537F12223898500B1310D /* NativeCallJS.m in Sources */,
 				A6F5019122325DE400EDE62E /* EnumConstants.m in Sources */,
+				A6225FCE2237566D00C546D5 /* PieChartManager.swift in Sources */,
 				A60537D52223799D00B1310D /* AppDelegate.m in Sources */,
 				A60537F22223898500B1310D /* CalendarManager.m in Sources */,
 				A60537F622238CB000B1310D /* BridgeHandle.m in Sources */,
@@ -392,6 +415,7 @@
 			baseConfigurationReference = C9432A247D3DFFFFBB8D5ABA /* Pods-TestApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODEPUSH_KEY = "yNVpu62XqgzekuMJNbTvDccdPEhvff1c96cd-a49b-47af-8859-d3785a712582";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3G8QFYT436;
@@ -402,6 +426,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Jimmyou.TestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TestApp/Swift/TestApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -411,6 +438,7 @@
 			baseConfigurationReference = 12170B74F11102A59D43A32D /* Pods-TestApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3G8QFYT436;
 				INFOPLIST_FILE = TestApp/Info.plist;
@@ -420,6 +448,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Jimmyou.TestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TestApp/Swift/TestApp-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -483,6 +513,7 @@
 			baseConfigurationReference = 12170B74F11102A59D43A32D /* Pods-TestApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3G8QFYT436;
 				INFOPLIST_FILE = TestApp/Info.plist;
@@ -492,6 +523,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Jimmyou.TestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TestApp/Swift/TestApp-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Staging;

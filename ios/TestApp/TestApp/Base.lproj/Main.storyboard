@@ -34,17 +34,17 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ebH-bF-X0v">
-                                <rect key="frame" x="165" y="301" width="30" height="30"/>
+                                <rect key="frame" x="95" y="301" width="171" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="RN"/>
+                                <state key="normal" title="RNUseNativeComponent"/>
                                 <connections>
                                     <action selector="click:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rM4-YA-9eE"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="psn-FB-uip">
-                                <rect key="frame" x="165" y="339" width="30" height="30"/>
+                                <rect key="frame" x="153" y="339" width="55" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="RN2"/>
+                                <state key="normal" title="API_Call"/>
                                 <connections>
                                     <action selector="clickRN2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5Pd-LK-VU0"/>
                                 </connections>
