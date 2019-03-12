@@ -19,6 +19,7 @@
 		A60537F622238CB000B1310D /* BridgeHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = A60537F522238CB000B1310D /* BridgeHandle.m */; };
 		A6B10D73222439AF0046FBC9 /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = A6B10D71222439AF0046FBC9 /* index.js */; };
 		A6B10D74222439AF0046FBC9 /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = A6B10D72222439AF0046FBC9 /* main.jsbundle */; };
+		A6F5019122325DE400EDE62E /* EnumConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F5019022325DE400EDE62E /* EnumConstants.m */; };
 		C9AB9732D190AA6E64287B66 /* libPods-TestApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF19750836D19A8CFE092EA /* libPods-TestApp.a */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +45,8 @@
 		A60537F522238CB000B1310D /* BridgeHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BridgeHandle.m; sourceTree = "<group>"; };
 		A6B10D71222439AF0046FBC9 /* index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = index.js; path = ../../../bundles/index.js; sourceTree = "<group>"; };
 		A6B10D72222439AF0046FBC9 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = main.jsbundle; path = ../../../bundles/main.jsbundle; sourceTree = "<group>"; };
+		A6F5018F22325DE400EDE62E /* EnumConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EnumConstants.h; sourceTree = "<group>"; };
+		A6F5019022325DE400EDE62E /* EnumConstants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnumConstants.m; sourceTree = "<group>"; };
 		C9432A247D3DFFFFBB8D5ABA /* Pods-TestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestApp.debug.xcconfig"; path = "Target Support Files/Pods-TestApp/Pods-TestApp.debug.xcconfig"; sourceTree = "<group>"; };
 		FAF19750836D19A8CFE092EA /* libPods-TestApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -124,6 +127,8 @@
 				A60537EF2223898500B1310D /* CalendarManager.m */,
 				A60537F02223898500B1310D /* NativeCallJS.h */,
 				A60537EE2223898500B1310D /* NativeCallJS.m */,
+				A6F5018F22325DE400EDE62E /* EnumConstants.h */,
+				A6F5019022325DE400EDE62E /* EnumConstants.m */,
 			);
 			path = OC;
 			sourceTree = "<group>";
@@ -239,6 +244,7 @@
 				A60537D82223799D00B1310D /* ViewController.m in Sources */,
 				A60537E32223799E00B1310D /* main.m in Sources */,
 				A60537F12223898500B1310D /* NativeCallJS.m in Sources */,
+				A6F5019122325DE400EDE62E /* EnumConstants.m in Sources */,
 				A60537D52223799D00B1310D /* AppDelegate.m in Sources */,
 				A60537F22223898500B1310D /* CalendarManager.m in Sources */,
 				A60537F622238CB000B1310D /* BridgeHandle.m in Sources */,

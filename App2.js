@@ -20,6 +20,8 @@ const instructions = Platform.select({
 
 var CalendarManger = NativeModules.CalendarManager;
 var nativeBridge = NativeModules.NativeCallJS;
+var EnumConstants = NativeModules.EnumConstants;
+
 const NativeModule = new NativeEventEmitter(nativeBridge);
 
 export default class App2 extends Component {
@@ -49,6 +51,9 @@ export default class App2 extends Component {
 
     testNativeToRN = () => {
         CalendarManger.postNotification();
+    };
+    testNativeEnum = () => {
+        alert(EnumConstants.statusBarAnimationFade);
     };
 
     componentDidMount() {
@@ -81,6 +86,7 @@ export default class App2 extends Component {
                 <Button onPress={this.didTestBlock} title='testCallBack'/>
                 <Button onPress={this.didTestPromise} title='testPromise'/>
                 <Button onPress={this.testNativeToRN} title='testNativeToRN'/>
+                <Button onPress={this.testNativeEnum} title='testNativeEnum'/>
             </View>
         );
     }
