@@ -16,6 +16,7 @@ import HomeScene from './scene/Home/HomeScene';
 import OrderScene from './scene/Order/OrderScene';
 import NearByScene from './scene/NearBy/NearByScene';
 import MineScene from './scene/Mine/MineScene';
+import CodePushManager from '../page/CodePushManager';
 
 
 import WebScene from './widget/WebScene'
@@ -104,6 +105,9 @@ const MineScreen = createStackNavigator(
     {
         Mine: {
             screen: MineScene,
+        },
+        CodePush: {
+            screen: CodePushManager,
         }
     },
     {

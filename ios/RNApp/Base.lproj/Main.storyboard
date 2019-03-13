@@ -57,14 +57,6 @@
                                     <action selector="invalid:" destination="Der-L9-43z" eventType="touchUpInside" id="eoP-fc-hMH"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hda-xo-wwB">
-                                <rect key="frame" x="174" y="379" width="57" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="hotLoad"/>
-                                <connections>
-                                    <action selector="hotLoad:" destination="Der-L9-43z" eventType="touchUpInside" id="glR-oy-Isp"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hVe-r0-xb5">
                                 <rect key="frame" x="169" y="278" width="55" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>

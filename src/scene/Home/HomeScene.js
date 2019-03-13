@@ -51,8 +51,8 @@ class HomeScene extends Component {
     }
 
     constructor(props: Object) {
-        super(props)
-
+        super(props);
+        // throw new Error('roll back');
         let ds = new ListView.DataSource({ rowHasChanged: (r1, r2) => r1 !== r2 })
 
         this.state = {

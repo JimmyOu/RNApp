@@ -1,12 +1,16 @@
 import React, {Component} from 'react';
-import {Platform, StyleSheet, Text, View, Image} from 'react-native';
+import {Platform, StyleSheet, Text, View, Image,Button} from 'react-native';
 
 export default class MineScene extends Component {
+    goCodePush = ()=> {
+        this.props.navigation.push('CodePush');
+    };
     render() {
         return (
             <View style={styles.container}>
                 <Text style={styles.welcome}>Welcome to React Native!</Text>
                 <Text style={styles.instructions}>To get started, edit App.js</Text>
+                <Button title={'code_push'} onPress={this.goCodePush}/>
             </View>
         );
     }
