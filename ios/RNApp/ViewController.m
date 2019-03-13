@@ -41,6 +41,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.title = @"RNApp";
     // Do any additional setup after loading the view, typically from a nib.
 }
 

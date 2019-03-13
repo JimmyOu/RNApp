@@ -65,6 +65,10 @@ RCT_EXPORT_METHOD(postNotification) {
     [NativeCallJS postNotiToReactNative:@"message from Native" args:@{@"name":@"Jimmy",@"age":@(20)}];
 }
 
+RCT_EXPORT_METHOD(dimissCurrentRNVCNotification) {
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"dimissCurrentRNVCNotification" object:nil];
+}
+
 
 //原生导出一些常量，在JavaScript端随时都可以访问。传递一些静态数据console.log(CalendarManager.firstDayOfTheWeek);
 - (NSDictionary *)constantsToExport

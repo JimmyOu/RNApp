@@ -55,7 +55,7 @@
 //#ifdef DEBUG
         jsCodeLocation = [[RCTBundleURLProvider sharedSettings] jsBundleURLForBundleRoot:@"index" fallbackResource:nil];
 //#else
-//    jsCodeLocation = [CodePush bundleURL];
+    jsCodeLocation = [CodePush bundleURL];
 //#endif
     return jsCodeLocation;
 }

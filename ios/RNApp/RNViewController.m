@@ -20,9 +20,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(dismissCurrent) name:@"dimissCurrentRNVCNotification" object:nil];
     [self initRCTRootView];
 }
-
+- (void)dismissCurrent {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
 - (void)initRCTRootView {
     
     RCTRootView *rootView = [[RCTRootView alloc] initWithBridge:[[BridgeAPI sharedInstance] bridge] moduleName:self.moduleName initialProperties:nil];

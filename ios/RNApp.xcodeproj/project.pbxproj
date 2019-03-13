@@ -14,6 +14,9 @@
 		A622605B2237DF3700C546D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A622605A2237DF3700C546D5 /* Assets.xcassets */; };
 		A622605E2237DF3700C546D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A622605C2237DF3700C546D5 /* LaunchScreen.storyboard */; };
 		A62260612237DF3700C546D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A62260602237DF3700C546D5 /* main.m */; };
+		A65868132238CD8600CC6E22 /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = A65867EA2238CD8600CC6E22 /* index.js */; };
+		A65868142238CD8600CC6E22 /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = A65867EB2238CD8600CC6E22 /* main.jsbundle */; };
+		A65868322238CE9800CC6E22 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = A65868312238CE9800CC6E22 /* assets */; };
 		A6AAE84B2237E8BD000BE769 /* RNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6AAE8492237E8B9000BE769 /* RNViewController.m */; };
 		A6AAE8562237E9F8000BE769 /* CalendarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A6AAE84D2237E9F3000BE769 /* CalendarManager.m */; };
 		A6AAE8572237E9F8000BE769 /* EnumConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = A6AAE84F2237E9F3000BE769 /* EnumConstants.m */; };
@@ -37,6 +40,9 @@
 		A622605D2237DF3700C546D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A622605F2237DF3700C546D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A62260602237DF3700C546D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A65867EA2238CD8600CC6E22 /* index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = index.js; sourceTree = "<group>"; };
+		A65867EB2238CD8600CC6E22 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		A65868312238CE9800CC6E22 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
 		A6AAE8492237E8B9000BE769 /* RNViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNViewController.m; sourceTree = "<group>"; };
 		A6AAE84A2237E8BD000BE769 /* RNViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNViewController.h; sourceTree = "<group>"; };
 		A6AAE84D2237E9F3000BE769 /* CalendarManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarManager.m; sourceTree = "<group>"; };
@@ -104,6 +110,7 @@
 		A62260502237DF3500C546D5 /* RNApp */ = {
 			isa = PBXGroup;
 			children = (
+				A65867E92238CD8600CC6E22 /* bundles */,
 				A6AAE84A2237E8BD000BE769 /* RNViewController.h */,
 				A6AAE8492237E8B9000BE769 /* RNViewController.m */,
 				A6AAE8532237E9F8000BE769 /* Bridge */,
@@ -121,6 +128,16 @@
 			);
 			path = RNApp;
 			sourceTree = "<group>";
+		};
+		A65867E92238CD8600CC6E22 /* bundles */ = {
+			isa = PBXGroup;
+			children = (
+				A65868312238CE9800CC6E22 /* assets */,
+				A65867EA2238CD8600CC6E22 /* index.js */,
+				A65867EB2238CD8600CC6E22 /* main.jsbundle */,
+			);
+			path = bundles;
+			sourceTree = SOURCE_ROOT;
 		};
 		A6AAE8412237E731000BE769 /* Swift */ = {
 			isa = PBXGroup;
@@ -216,7 +233,10 @@
 			files = (
 				A622605E2237DF3700C546D5 /* LaunchScreen.storyboard in Resources */,
 				A622605B2237DF3700C546D5 /* Assets.xcassets in Resources */,
+				A65868142238CD8600CC6E22 /* main.jsbundle in Resources */,
+				A65868322238CE9800CC6E22 /* assets in Resources */,
 				A62260592237DF3500C546D5 /* Main.storyboard in Resources */,
+				A65868132238CD8600CC6E22 /* index.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +340,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODEPUSH_KEY = "yNVpu62XqgzekuMJNbTvDccdPEhvff1c96cd-a49b-47af-8859-d3785a712582";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -379,6 +400,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODEPUSH_KEY = "kNOro-o-b45raeeIR86SN9e5yF5yff1c96cd-a49b-47af-8859-d3785a712582";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -443,6 +465,81 @@
 			};
 			name = Release;
 		};
+		A65868332238D13100CC6E22 /* Test */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODEPUSH_KEY = "11LzBfIWSH0-NrJ6qphrJD_Eq8fWff1c96cd-a49b-47af-8859-d3785a712582";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Test;
+		};
+		A65868342238D13100CC6E22 /* Test */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36082A815F757C217A2797EE /* Pods-RNApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3G8QFYT436;
+				INFOPLIST_FILE = RNApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Jimmyou.RNApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RNApp/Swift/RNApp-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Test;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -451,6 +548,7 @@
 			buildConfigurations = (
 				A62260622237DF3700C546D5 /* Debug */,
 				A62260632237DF3700C546D5 /* Release */,
+				A65868332238D13100CC6E22 /* Test */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -460,6 +558,7 @@
 			buildConfigurations = (
 				A62260652237DF3700C546D5 /* Debug */,
 				A62260662237DF3700C546D5 /* Release */,
+				A65868342238D13100CC6E22 /* Test */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

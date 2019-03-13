@@ -3,7 +3,13 @@
     "version": "0.0.1",
     "private": true,
     "scripts": {
-        "start": "node node_modules/react-native/local-cli/cli.js start"
+        "start": "node node_modules/react-native/local-cli/cli.js start",
+        "iosbundle": "react-native bundle --platform ios --entry-file index.js --bundle-output ./bundles/main.jsbundle --assets-dest ./bundles --dev false",
+        "code_push_staging":"code-push deployment h RNApp Staging",
+        "code_push_ls":"code-push deployment ls RNApp -k",
+        "code_push_update1":"code-push release-react RNApp ios  --t 1.0.0 --dev false --d Staging --des '去掉NearBy' --m true",
+        "code_push_update2":"code-push release-react RNApp ios  --t 1.0.0 --dev false --d Staging --des '恢复' --m true"
+
     },
     "dependencies": {
         "react": "16.6.3",
