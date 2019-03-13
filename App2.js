@@ -73,15 +73,6 @@ export default class App2 extends Component {
     render() {
         return (
             <View style={styles.container}>
-                <Text style={styles.welcome}>
-                    My name is:{this.props.name}
-                </Text>
-                <Text style={styles.welcome}>
-                    My age is{this.props.age}岁
-                </Text>
-                <Text style={styles.instructions}>
-                    {instructions}
-                </Text>
                 <Button onPress={this.didclickBtn} title='testMethod'/>
                 <Button onPress={this.didTestBlock} title='testCallBack'/>
                 <Button onPress={this.didTestPromise} title='testPromise'/>
