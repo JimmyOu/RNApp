@@ -21,7 +21,7 @@ class HomeScene extends Component {
         headerTitle: (
             <TouchableOpacity style={styles.searchBar}>
                 <Image source={images.home.ic_search} style={styles.searchIcon} />
-                <Paragraph>点我搜索</Paragraph>
+                <Paragraph>search</Paragraph>
             </TouchableOpacity>
         ),
         headerRight: (

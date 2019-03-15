@@ -9,7 +9,8 @@
         "code_push_ls":"code-push deployment ls RNApp -k",
         "code_push_update1":"code-push release-react RNApp ios  --t 1.0.0 --dev false --d Staging --des '去掉NearBy' --m true",
         "code_push_update2":"code-push release-react RNApp ios  --t 1.0.0 --dev false --d Staging --des '恢复' --m true",
-        "code_push_crash":"code-push release-react RNApp ios  --t 1.0.0 --dev false --d Staging --des '加入crash代码' --m true"
+        "code_push_crash":"code-push release-react RNApp ios  --t 1.0.0 --dev false --d Staging --des '加入crash代码' --m true",
+        "react-devtools":"react-devtools"
 
     },
     "dependencies": {

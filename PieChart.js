@@ -50,3 +50,4 @@ const styles = StyleSheet.create({
 });
 
 const NativePieChart = requireNativeComponent('PieChart', PieChart)
+// Native的底层框架可以检查原生属性和包装类的属性是否一致，来减少出现问题的可能

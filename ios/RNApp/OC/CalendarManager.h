@@ -15,6 +15,8 @@ NS_ASSUME_NONNULL_BEGIN
 @interface CalendarManager : NSObject<RCTBridgeModule>
 
 
+
+
 @end
 
 NS_ASSUME_NONNULL_END

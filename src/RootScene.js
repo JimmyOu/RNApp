@@ -128,7 +128,7 @@ const MineScreen = createStackNavigator(
 const TabNavigator = createBottomTabNavigator(
     {
         Home: HomeScreen,
-        NearBy: NearByScreen,
+        // NearBy: NearByScreen,
         Order: OrderScreen,
         Mine: MineScreen,
     },
